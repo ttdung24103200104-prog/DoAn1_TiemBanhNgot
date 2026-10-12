@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <!-- Cho phép hiển thị tiếng Việt có dấu -->
+    <meta charset="UTF-8" />
+
+    <!-- Giúp trang hiển thị đúng trên các kích thước màn hình -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tên trang -->
+    <title>Tiệm Bánh Ngọt</title>
+
+    <!-- Kết nối font Allura cho tiêu đề trang đầu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- Kết nối máy chủ font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font giống kiểu chữ ban đầu -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Kết nối CSS -->
+    <link rel="stylesheet" href="ql.css" />
+  </head>
+
+  <body>
+    <!-- Khung chính của trang -->
+    <div class="main-container">
+      <!-- Phần nội dung bên trái -->
+      <div class="left-section">
+        <!-- Hiệu ứng ánh sáng -->
+        <div class="pink-light"></div>
+
+        <!-- Nội dung -->
+        <div class="content">
+          <!-- Tiêu đề -->
+          <h1>
+            <!-- Dòng thứ nhất -->
+            <span class="title-line first-line"> Have a wonderful </span>
+
+            <!-- Dòng thứ hai -->
+            <span class="title-line second-line"> day </span>
+          </h1>
+
+          <!-- Nội dung mô tả -->
+          <p class="description">
+            Enter a world where dreams dance under starlight and a birthday wish
+            comes to life.
+          </p>
+
+          <!-- Nút đi đến trang chủ -->
+          <button id="welcomeBtn" class="welcome-btn" type="button">
+            <!-- Chữ trên nút -->
+            <span class="button-text"> Welcome to Tiệm Bánh </span>
+
+            <!-- Vòng tròn mũi tên -->
+            <span class="arrow-circle">
+              <!-- Mũi tên -->
+              <span class="arrow"> ↗ </span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Phần hình ảnh bên phải -->
+      <div class="right-section">
+        <!-- Hình bánh -->
+        <img
+          src="mivargof-dessert-4071142_1920.jpg"
+          alt="Bánh kem"
+          class="cake-image"
+        />
+      </div>
+    </div>
+
+    <!-- Kết nối JavaScript -->
+    <script src="ql.js"></script>
+  </body>
+</html>
